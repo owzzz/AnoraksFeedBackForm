@@ -1,0 +1,39 @@
+{
+  "name": "AnorakFeedBackForm",
+  "description": "A feed Back form Built on Node | Mongo DB | Angular",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Owain Llewellyn",
+  "homepage": "",
+  "contributors": [
+    "Owain Llewellyn <owain.llewe@gmail.com> (https://github.com/owzzz)"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "~3.3.4",
+    "grunt": "~0.4.1",
+    "ejs": "~0.8.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-autoprefixer": "~0.1.20130615",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-compass": "~0.3.0",
+    "grunt-contrib-sass": "~0.4.1",
+    "nodemon": "~0.7.8"
+  },
+  "keywords": [],
+  "repository": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
+}
