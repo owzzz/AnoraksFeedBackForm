@@ -18,16 +18,16 @@
     <body>
 
         <header>
-            <h1 class="logo">{{= title}}</h1>
+            {{ include partials/_header.html }}
         </header>
         <div class="main wrapper">
 
             {{ include partials/_feedback-form.html }}
-            
 
         </div> <!-- #main -->
         <footer>
-            <h3>footer</h3>
+            {{ include partials/_footer.html }}
+            
         </footer>
 
         <script src="js/main.js"></script>
